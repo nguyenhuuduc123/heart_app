@@ -1,4 +1,6 @@
+import 'package:codingwithme/src/features/authentication/screens/login_screen/login_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 import '../../../../constants/colors.dart';
 import '../../../../constants/image_strings.dart';
@@ -44,7 +46,9 @@ class WelcomeScreen extends StatelessWidget {
               children: [
                 Expanded(
                   child: OutlinedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Get.to(() => const LoginScreen());
+                    },
                     child: Text(tLogin.toUpperCase()),
                   ),
                 ),

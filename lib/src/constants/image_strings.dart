@@ -13,4 +13,4 @@ const String tWelcomeImageScreen =
     "assets/images/welcome_images/welcome-screen-image.png";
 
 // goole logo image
-const String tGoogleLogoImage = "assets/logos/google-logo.png";
+const String tGoogleLogoImage = "logos/google-logo.png";
